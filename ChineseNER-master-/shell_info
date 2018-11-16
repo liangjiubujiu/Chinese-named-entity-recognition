@@ -1,0 +1,16 @@
+2018-01-29 17:37:51.314084: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-01-29 17:37:51.564190: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-01-29 17:37:51.564392: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1050 major: 6 minor: 1 memoryClockRate(GHz): 1.493
+pciBusID: 0000:01:00.0
+totalMemory: 1.95GiB freeMemory: 1.22GiB
+2018-01-29 17:37:51.564409: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1050, pci bus id: 0000:01:00.0, compute capability: 6.1)
+/home/baymax/anaconda3/lib/python3.5/site-packages/tensorflow/python/ops/gradients_impl.py:96: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2018-01-29 17:37:52,862 - log/train.log - INFO - Created model with fresh parameters.
+Loading pretrained embeddings from wiki_100.utf8...
+WARNING: 1 invalid lines
+Loaded 16115 pretrained embeddings.
+4395 / 4412 (99.6147%) words have been initialized with pretrained embeddings.
+4395 found directly, 0 after lowercasing, 0 after lowercasing + zero.
+

@@ -1,0 +1,4 @@
+train() 中用test和development数据集做辞典扩充，但还不清楚目的
+
+dico["<PAD>"] = 10000001 # 不晓得这是啥意思
+dico['<UNK>'] = 10000000
